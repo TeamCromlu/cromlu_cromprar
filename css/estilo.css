@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+body {
+  background: #fff;
+}
+.Header-Main {
+  background: #fff;
+}
+.Header-Main__box {
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+.Header-Main__logo {
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+.Header-Main__logo a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.Header-Main__logo a img {
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.Header-Main__logo a h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+.plan {
+  background: #f2f2f2;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.plan__box {
+  text-align: center;
+  margin: 0 auto;
+}
+.plan__title {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.plan__title h2 {
+  font-size: 2em;
+}
+.plan__sub-title {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+.plan__sub-title .sub-title__ico {
+  display: inline-block;
+  vertical-align: middle;
+}
+.plan__sub-title h3 {
+  font-size: 1.6em;
+  display: inline-block;
+  vertical-align: middle;
+}
+.plan__paquetes {
+  text-align: center;
+  magin: 0 auto;
+}
+.plan__paquetes .paquetes__estandar {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.plan__paquetes .paquetes__estandar .estandar__title {
+  background: #ff0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.plan__paquetes .paquetes__estandar .estandar__title h2 {
+  color: #000;
+}
+.plan__paquetes .paquetes__estandar .estandar__atributos {
+  background: #fff;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.plan__paquetes .paquetes__estandar .estandar__atributos ul {
+  text-align: left;
+  padding-left: 3.3em;
+}
+.plan__paquetes .paquetes__estandar .estandar__atributos ul li {
+  font-size: 1.3em;
+}
+.plan__paquetes .paquetes__estandar .estandar__precio {
+  background: #ffa500;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.plan__paquetes .paquetes__estandar .estandar__precio h2 {
+  font-size: 2.2em;
+  display: inline-block;
+}
+.plan__paquetes .paquetes__estandar .estandar__precio span {
+  display: inline-block;
+}
+.plan__paquetes .paquetes__estandar .estandar__precio p {
+  font-size: 1em;
+}
+.plan__paquetes .paquetes__premium {
+  display: block;
+  width: 100%;
+}
+.plan__paquetes .paquetes__premium .premium__title {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #ff0;
+}
+.plan__paquetes .paquetes__premium .premium__title h2 {
+  color: #000;
+padding-top
+}
+.plan__paquetes .paquetes__premium .premium__atributos {
+  background: #fff;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.plan__paquetes .paquetes__premium .premium__atributos ul {
+  text-align: left;
+  padding-left: 3.3em;
+}
+.plan__paquetes .paquetes__premium .premium__atributos ul li {
+  font-size: 1.3em;
+}
+.plan__paquetes .paquetes__premium .premium__condiciones {
+  background: #ffc0cb;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.plan__paquetes .paquetes__premium .premium__condiciones p {
+  font-size: 1em;
+}
+.plan__paquetes .paquetes__premium .premium__contacto {
+  background: #808000;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.plan__paquetes .paquetes__premium .premium__contacto h3 {
+  font-size: 2.2em;
+}
+.plan__paquetes .paquetes__premium .premium__contacto p {
+  font-size: 1.5em;
+}
+@media (min-width: 768px) {
+  .plan__box {
+    max-width: 900px;
+  }
+  .plan__title .paquetes__estandar,
+  .plan__sub-title .paquetes__estandar,
+  .plan__paquetes .paquetes__estandar {
+    border: 1px solid #d3d3d3;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-right: 2em;
+  }
+  .plan__title .paquetes__estandar .estandar__title,
+  .plan__sub-title .paquetes__estandar .estandar__title,
+  .plan__paquetes .paquetes__estandar .estandar__title {
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+  }
+  .plan__title .paquetes__estandar .estandar__precio,
+  .plan__sub-title .paquetes__estandar .estandar__precio,
+  .plan__paquetes .paquetes__estandar .estandar__precio {
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+  }
+  .plan__title .paquetes__premium,
+  .plan__sub-title .paquetes__premium,
+  .plan__paquetes .paquetes__premium {
+    border: 1px solid #d3d3d3;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+  }
+  .plan__title .paquetes__premium .premium__title,
+  .plan__sub-title .paquetes__premium .premium__title,
+  .plan__paquetes .paquetes__premium .premium__title {
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+  }
+  .plan__title .paquetes__premium .premium__contacto,
+  .plan__sub-title .paquetes__premium .premium__contacto,
+  .plan__paquetes .paquetes__premium .premium__contacto {
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+  }
+}
+.promocion-especial__box {
+  text-aligin: center;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+.promocion-especial__contenido {
+  width: 100%;
+}
+.promocion-especial__contenido .contenido__title {
+  background: #800080;
+  width: 100%;
+}
+.promocion-especial__contenido .contenido__title h2 {
+  text-align: center;
+}
+.promocion-especial__contenido .contenido__promo {
+  background: #ffa500;
+  width: 100%;
+  margin: 0 auto;
+}
+.promocion-especial__contenido .contenido__promo .promo__smile {
+  display: inline-block;
+  width: 20%;
+  background: #f00;
+}
+.promocion-especial__contenido .contenido__promo .promo__smile img {
+  width: 50px;
+}
+.promocion-especial__contenido .contenido__promo .promo__letra {
+  display: inline-block;
+  width: 70%;
+  background: #808000;
+}
+.numero-ico {
+  background: #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 30px;
+}

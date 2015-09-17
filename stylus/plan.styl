@@ -1,0 +1,119 @@
+.plan
+	background #f2f2f2
+	padding-top 2em
+	padding-bottom 2em
+	&__box
+		text-align center
+		margin 0 auto
+	&__title
+		text-align center
+		padding-bottom 1em
+		h2
+			font-size 2em
+	&__sub-title
+		text-align center
+		margin 0 auto
+		padding-bottom 1em
+		.sub-title__ico
+			display inline-block
+			vertical-align middle
+		h3
+			font-size 1.6em
+			display inline-block
+			vertical-align middle
+	&__paquetes
+		text-align center
+		magin 0 auto
+		.paquetes__estandar
+			display block
+			width 100%
+			margin-bottom 1em
+			.estandar__title
+				background yellow
+				padding-top 1em
+				padding-bottom 1em
+				h2
+					color black
+			.estandar__atributos
+				background white
+				padding-top 1.5em
+				padding-bottom 1.5em
+				ul
+					text-align left
+					padding-left 3.3em
+					li
+						font-size 1.3em
+			.estandar__precio
+				background orange
+				padding-top 2em
+				padding-bottom 2em
+				h2
+					font-size 2.2em
+					display inline-block
+				span
+					display inline-block
+				p
+					font-size 1em
+		.paquetes__premium
+			display block
+			width 100%
+			.premium__title
+				padding-top 1em
+				padding-bottom 1em
+				background yellow
+				h2
+					color black
+					padding-top
+			.premium__atributos
+				background white
+				padding-top 1.5em
+				padding-bottom 1.5em
+				ul
+					text-align left
+					padding-left 3.3em
+					li
+						font-size 1.3em
+			.premium__condiciones
+				background pink
+				padding-top 1em
+				padding-bottom 1em
+				p
+					font-size 1em
+			.premium__contacto
+				background olive
+				padding-top 2em
+				padding-bottom 2em
+				h3
+					font-size 2.2em
+				p
+					font-size 1.5em
+
+@media (min-width 768px)
+	.plan
+		&__box
+			max-width 900px
+		&__title
+		&__sub-title
+		&__paquetes
+			.paquetes__estandar
+				border 1px solid lightgray
+				border-radius 6px
+				display inline-block
+				vertical-align top
+				width 45%
+				margin-right 2em
+				.estandar__title
+					border-radius 6px 6px 0 0
+				.estandar__precio
+					border-radius 0 0 6px 6px 
+			.paquetes__premium
+				border 1px solid lightgray
+				border-radius 6px
+				display inline-block
+				vertical-align top
+				width 45%
+				.premium__title
+					border-radius 6px 6px 0 0
+				.premium__contacto
+					border-radius 0 0 6px 6px
+			
