@@ -1,0 +1,17 @@
+.pagar {
+  background: #ffa500;
+}
+.pagar__box {
+  text-align: center;
+  margin: 0 auto;
+}
+.pagar__pagar__steps {
+  width: 100%;
+  display: block;
+}
+.pagar__pagar__steps figure {
+  width: 200px;
+}
+.pagar__pagar__steps figure img {
+  max-width: 100%;
+}

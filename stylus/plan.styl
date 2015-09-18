@@ -1,7 +1,7 @@
 .plan
 	background #f2f2f2
 	padding-top 2em
-	padding-bottom 2em
+	padding-bottom 1em
 	&__box
 		text-align center
 		margin 0 auto
@@ -10,6 +10,7 @@
 		padding-bottom 1em
 		h2
 			font-size 2em
+			color #3a3a3a
 	&__sub-title
 		text-align center
 		margin 0 auto
@@ -17,23 +18,40 @@
 		.sub-title__ico
 			display inline-block
 			vertical-align middle
+			margin-right .3em
+		.numero-ico
+			background black
+			width 30px
+			height 30px
+			border-radius 50%
+			text-align center
+			display inline-block
+			color white
+			font-size 1.5em
+			line-height 30px
 		h3
 			font-size 1.6em
 			display inline-block
 			vertical-align middle
+			color #1B1B1B
 	&__paquetes
 		text-align center
-		magin 0 auto
+		width 90%
+		margin 0 auto
 		.paquetes__estandar
 			display block
 			width 100%
 			margin-bottom 1em
+			border 1px solid lightgray
+			border-radius 6px
+			box-shadow rgba(0,0,0, 0.2) 0px 6px 20px
 			.estandar__title
-				background yellow
+				background #2DE2D3
 				padding-top 1em
 				padding-bottom 1em
+				border-radius 6px 6px 0 0
 				h2
-					color black
+					color white
 			.estandar__atributos
 				background white
 				padding-top 1.5em
@@ -41,12 +59,18 @@
 				ul
 					text-align left
 					padding-left 3.3em
+					width 75%
+					margin 0 auto
 					li
 						font-size 1.3em
+						padding-bottom .5em
+						color #2e2f33
 			.estandar__precio
-				background orange
+				background #69FFF3
 				padding-top 2em
 				padding-bottom 2em
+				border-radius 0 0 6px 6px
+				color white
 				h2
 					font-size 2.2em
 					display inline-block
@@ -54,15 +78,19 @@
 					display inline-block
 				p
 					font-size 1em
+					color #292929
 		.paquetes__premium
 			display block
 			width 100%
+			border 1px solid lightgray
+			border-radius 6px
 			.premium__title
 				padding-top 1em
 				padding-bottom 1em
-				background yellow
+				background #2AE475
+				border-radius 6px 6px 0 0
 				h2
-					color black
+					color white
 					padding-top
 			.premium__atributos
 				background white
@@ -71,49 +99,61 @@
 				ul
 					text-align left
 					padding-left 3.3em
+					width 75%
+					margin 0 auto
 					li
 						font-size 1.3em
+						padding-bottom .5em
+						color #2e2f33
 			.premium__condiciones
-				background pink
+				background #FEFFCC
 				padding-top 1em
 				padding-bottom 1em
 				p
 					font-size 1em
+					text-align left
+					padding-left 15px
+					padding-right 15px
 			.premium__contacto
-				background olive
-				padding-top 2em
-				padding-bottom 2em
+				background #59FF9C
+				padding-top 1em
+				padding-bottom 1em
+				border-radius 0 0 6px 6px
+				color white
 				h3
-					font-size 2.2em
+					font-size 2em
 				p
 					font-size 1.5em
+					color #292929
 
 @media (min-width 768px)
 	.plan
 		&__box
 			max-width 900px
 		&__title
+			h2
+				font-size 3em	
 		&__sub-title
+			font-size 1.4em
+			.numero-ico
+				width 50px
+				height 50px
+				line-height 50px
+				
 		&__paquetes
 			.paquetes__estandar
-				border 1px solid lightgray
-				border-radius 6px
 				display inline-block
 				vertical-align top
 				width 45%
 				margin-right 2em
-				.estandar__title
-					border-radius 6px 6px 0 0
 				.estandar__precio
-					border-radius 0 0 6px 6px 
+					h2
+						font-size 3em
 			.paquetes__premium
 				border 1px solid lightgray
 				border-radius 6px
 				display inline-block
 				vertical-align top
 				width 45%
-				.premium__title
-					border-radius 6px 6px 0 0
-				.premium__contacto
-					border-radius 0 0 6px 6px
-			
+		
+
